@@ -2,9 +2,13 @@
 class Error():
     
     def gestioneKeyError(self):
-        print("\n Error: Stai tentando di accedere ad una chiave inesistente ")
+        print("\nError: Stai tentando di accedere ad una chiave inesistente ")
 
-    def gestioneNameError(self):
-        print("\n Error: il nome df non è definito, creare il dataframe attraverso l'opzione 1 ")
+    def gestioneAttributeError(self):
+        print("\nDato non presente")
+
+    def gestioneTypeError(self):
+        print("\nErrore sul tipo, NaN type presente e non sovrascrivibile")
+    
     
 
